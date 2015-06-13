@@ -1,0 +1,41 @@
+/* http://stackoverflow.com/questions/396145/how-to-vertically-center-a-div-for-all-browsers
+ */
+div.outer {
+   width: 100%;
+   padding: 0;
+   display: table;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin: 0;
+}
+div.middle {
+  padding: 0;
+  vertical-align: middle;
+  display: table-cell;
+  margin: 0;
+}
+div.inner {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+   color: orange;
+   padding-left: 50px;
+}
+h2 {
+   text-align: center;
+}
+h3 {
+   text-align: center;
+}
+
+p.center {
+   text-align: center;
+}
+
+td { 
+   padding: 10px;
+}
